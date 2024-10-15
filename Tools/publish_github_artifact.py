@@ -14,7 +14,7 @@ VERSION = os.environ['GITHUB_SHA']
 # CONFIGURATION PARAMETERS
 # Forks should change these to publish to their own infrastructure.
 #
-ROBUST_CDN_URL = "http://goobstation.simplestation.org:25514/"
+ROBUST_CDN_URL = "https://cdn.simplestation.org/"
 FORK_ID = "goobstation"
 
 def main():
